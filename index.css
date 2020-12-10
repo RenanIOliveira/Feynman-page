@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.titulo {
+    color: rgb(71, 71, 71);
+}
+
+.navbar-parent {
+    box-shadow: 0 4px 2px -2px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    box-shadow: 2em;
+}
+
+.navbar-buttons a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-title {
+    width: 40%;
+    margin-left: 8em;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8em;
+}
+
+.navbar-buttons>a {
+    margin: 0 0.5em 0 0.5em;
+}
+
+.content {
+    border-radius: 0.5em;
+    margin: 5%;
+    background-color: white;
+    width: 90%;
+}
+
+.main-section {
+    padding-top: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-section p {
+    margin: 2em;
+}
+
+.section-content {
+    margin: 2em;
+}
+
+img {
+    border: 1px solid lightgrey;
+    float: left;
+    margin: 2em;
+}
+
+.section-title {
+    padding-top: 4em;
+    margin-bottom: 0.2em;
+    width: 20em;
+    padding-left: 2em;
+}
+
+.main-section-title {
+    padding-top: 1em;
+    margin-bottom: 0.2em;
+    width: 20em;
+    padding-left: 2em;
+}
+
+.video{
+    margin:2em;
+    padding-bottom:2em;
+}
